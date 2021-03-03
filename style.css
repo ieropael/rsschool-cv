@@ -1,0 +1,169 @@
+@font-face {
+  font-family: Poppins;
+  src: url(fonts/Poppins-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(fonts/Poppins-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(fonts/Poppins-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 768px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-content {
+  padding: 85px 60px 40px 70px;
+  background-color: #2c323d;
+  color: #fff;
+}
+
+.main-content {
+  padding: 85px 70px 40px 50px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #2c323d;
+  color: #2c323d;
+}
+
+.avatar-image {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 65px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.header {
+  margin-bottom: 60px;
+}
+
+.header__title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.header__subtitle {
+  font-size: 25px;
+  line-height: 1.6;
+  letter-spacing: 2.3px;
+  color: #363636;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.horizontal-line {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 40px;
+  height: 3px;
+}
+
+.horizontal-line--white {
+  background-color: #fff;
+}
+
+.horizontal-line--black {
+  background-color: #000;
+}
+
+.section-content {
+  margin-bottom: 65px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list-title {
+  font-size: 15px;
+}
+
+.contacts__list-item {
+  margin-bottom: 25px;
+}
+
+.contacts__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.skills__list-item {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.skills__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.about-myself__content {
+  margin-bottom: 5px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.education__list-item {
+  margin-bottom: 5px;
+}
+
+.education__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.education__list-icon {
+  width: 13px;
+  height: 13px;
+}
+
+.education__list-link:active,
+.education__list-link {
+  font-weight: 500;
+  line-height: 1.6;
+  color: #555;
+  text-decoration: none;
+}
+
+.code-example__content {
+  width: 190px;
+  height: 100px;
+  background-color: #d7d7d7;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-image {
+  padding: 20px 70px 20px 70px;
+  height: 90px;
+}
