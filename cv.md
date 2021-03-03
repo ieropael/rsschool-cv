@@ -34,3 +34,20 @@ function greet() {
 return "Hello World!";
 }
 ```
+
+
+### Experience
+
+
+### Education
+
+* **[Stepik.org - Web development for beginners: HTML и CSS](https://stepik.org/course/38218/info)**
+* **[Stepik.org - JavaScript for beginners](https://stepik.org/course/2223/info)**
+* **[Yandex.Praktikum - HTML, CSS, JavaScript: Free introductory course](https://praktikum.yandex.ru/web/)**
+* **[HTML Academy (free part)](https://htmlacademy.ru)**
+* **[The Modern JavaScript Tutorial (learn.javascript.ru)](https://learn.javascript.ru)**
+
+
+### English language
+
+My level of English is **Pre-Intermediate (A2)**
